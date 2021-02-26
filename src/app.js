@@ -1,8 +1,9 @@
 const name = 'Max';
+let number = 13;
 
-const fullname = (name, surname) => `${name} ${surname}`;
+const fullname = (name, surname, age) => `${name} ${surname} ${age}`;
 
-fullname(name, 'Ivanov');
+fullname(name, 'Ivanov', number);
 
 const obj = {
 	name: 'Oleg',
@@ -22,8 +23,6 @@ const sum = (a, b) => a + b;
 
 sum(3, 6);
 
-var multiple = (a, b) => {
-  return a*b
-};
+const multiple = (a, b) => a * b;
 
 multiple(3, 6);
