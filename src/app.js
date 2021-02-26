@@ -1,7 +1,7 @@
 var name = 'Ivan'
 
-function fullName(name,  surname) {
-  return name + ' ' + surname
+function fullName(name, surname) {
+	return `${name} ${surname}`;
 }
 
-fullName(name, 'Ivanov')
+fullName(name, 'Ivanov');
