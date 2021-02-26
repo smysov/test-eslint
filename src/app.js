@@ -18,6 +18,12 @@ const user = {
 
 user.age = 21;
 
-var sum = (a,b) => a+b;
+const sum = (a, b) => a + b;
 
-sum(3,6)
+sum(3, 6);
+
+var multiple = (a, b) => {
+  return a*b
+};
+
+multiple(3, 6);
