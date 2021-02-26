@@ -8,6 +8,7 @@
   "rules": {
     "arrow-parens": "off",
     "no-var": "error",
+    "no-console": "error",
     "no-alert": "error",
     "no-tabs": "off",
     "semi": "error",
