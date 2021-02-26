@@ -9,4 +9,11 @@ const obj = {
 	surname: 'Petrov',
 };
 
-obj.age = 34
+obj.job = 'Manager'
+
+const user = {
+	name: 'Ivan',
+	age: 23,
+};
+
+user.age = 21
