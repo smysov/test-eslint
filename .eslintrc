@@ -11,6 +11,7 @@
     "no-console": "error",
     "no-alert": "error",
     "no-tabs": "off",
+    "no-shadow": "off",
     "semi": "error",
     "max-len": ["error", 120, { "ignoreUrls": true }],
     "indent": [2, "tab"],
