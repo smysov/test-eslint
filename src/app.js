@@ -1,7 +1,2 @@
-var name = 'Ivan'
-
-function fullName(name, surname) {
-	return `${name} ${surname}`;
-}
-
-fullName(name, 'Ivanov');
+const arrow =(a,b) => a+b;
+arrow(3,6);
