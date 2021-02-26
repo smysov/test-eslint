@@ -1,28 +1,7 @@
-const name = 'Max';
-let number = 13;
+var name = 'Ivan'
 
-const fullname = (name, surname, age) => `${name} ${surname} ${age}`;
+function fullName(name,  surname) {
+  return name + ' ' + surname
+}
 
-fullname(name, 'Ivanov', number);
-
-const obj = {
-	name: 'Oleg',
-	surname: 'Petrov',
-};
-
-obj.job = 'Manager';
-
-const user = {
-	name: 'Ivan',
-	age: 23,
-};
-
-user.age = 21;
-
-const sum = (a, b) => a + b;
-
-sum(3, 6);
-
-const multiple = (a, b) => a * b;
-
-multiple(3, 6);
+fullName(name, 'Ivanov')
