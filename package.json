@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "lint": "eslint ./src",
+    "lint": "eslint ./src --color",
     "lint:fix": "eslint ./src --fix --color",
     "postinstall": "husky install"
   },
@@ -15,7 +15,7 @@
   },
   "lint-staged": {
     "*.js": [
-      "yarn lint:fix",
+      "yarn lint",
       "git add"
     ]
   },
