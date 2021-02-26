@@ -9,11 +9,15 @@ const obj = {
 	surname: 'Petrov',
 };
 
-obj.job = 'Manager'
+obj.job = 'Manager';
 
 const user = {
 	name: 'Ivan',
 	age: 23,
 };
 
-user.age = 21
+user.age = 21;
+
+var sum = (a,b) => a+b;
+
+sum(3,6)
